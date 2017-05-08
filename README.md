@@ -1,0 +1,5 @@
+# Water Safety Surveys
+
+There are two folders here, which are separate solutions to the problem of storing and displaying recursive surveys and responses. The `django` folder contains a very preliminary [django web project](http://www.djangoproject.com/) (which is Python-based)) able to store and edit water safety survey data. The `rras` folder contains two Python-based command-line utilities and a [Wordpress plugin](https://codex.wordpress.org/Writing_a_Plugin) (written in PHP). When activated on a [Wordpress](http://wordpress.org/) installation (e.g., [this one](http://wsp.fishandwhistle.net/)), the plugin will use the Python command-line tools to compile, display, and score surveys.
+
+Generally, combining PHP and Python isn't ideal, so some combination of the `rstools` and `rrastools` modules with a Django web app is probably the most flexible solution.
